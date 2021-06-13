@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "screenapp",
-    "slug": "screenapp",
+    "name": "AwesomeProject",
+    "slug": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,7 +26,17 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyBE6ZrxqpmTWvMkc9IA4pB-X4q1fbc3c-8",
+          "authDomain": "awesomeproject-5564f.firebaseapp.com",
+          "projectId": "awesomeproject-5564f",
+          "storageBucket": "awesomeproject-5564f.appspot.com",
+          "messagingSenderId": "661092837736",
+          "appId": "1:661092837736:web:b297cba4faa32027868edd"
+        }
+      }
     }
   }
 }
